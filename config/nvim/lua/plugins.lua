@@ -15,6 +15,12 @@ return require('packer').startup(function()
   use 'joshdick/onedark.vim'
   use 'dracula/vim'
   use 'mfussenegger/nvim-jdtls'
+  use {
+    'tanvirtin/vgit.nvim',
+    requires = {
+      'nvim-lua/plenary.nvim'
+    }
+  }
 
   -- Simple plugins can be specified as strings
   -- use '9mm/vim-closer'
