@@ -10,6 +10,7 @@ nnoremap <C-f> :NERDTreeFind<CR>
 let g:ackprg = 'ag --vimgrep'
 
 set listchars=eol:¬,tab:>-,trail:~,extends:>,precedes:<,space:·
+set list
 set number
 set relativenumber
 

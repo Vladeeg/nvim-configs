@@ -14,6 +14,7 @@ return require('packer').startup(function()
   use 'mileszs/ack.vim'
   use 'joshdick/onedark.vim'
   use 'dracula/vim'
+  use 'mfussenegger/nvim-jdtls'
 
   -- Simple plugins can be specified as strings
   -- use '9mm/vim-closer'

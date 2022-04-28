@@ -44,8 +44,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/vmarchenko/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/vmarchenko/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/vmarchenko/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/vmarchenko/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/vmarchenko/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/home/vlad/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/vlad/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/vlad/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/vlad/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/vlad/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -71,47 +71,52 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["ack.vim"] = {
     loaded = true,
-    path = "/home/vmarchenko/.local/share/nvim/site/pack/packer/start/ack.vim",
+    path = "/home/vlad/.local/share/nvim/site/pack/packer/start/ack.vim",
     url = "https://github.com/mileszs/ack.vim"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/home/vmarchenko/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    path = "/home/vlad/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   nerdtree = {
     loaded = true,
-    path = "/home/vmarchenko/.local/share/nvim/site/pack/packer/start/nerdtree",
+    path = "/home/vlad/.local/share/nvim/site/pack/packer/start/nerdtree",
     url = "https://github.com/preservim/nerdtree"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/home/vmarchenko/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    path = "/home/vlad/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-comment"] = {
     loaded = true,
-    path = "/home/vmarchenko/.local/share/nvim/site/pack/packer/start/nvim-comment",
+    path = "/home/vlad/.local/share/nvim/site/pack/packer/start/nvim-comment",
     url = "https://github.com/terrortylor/nvim-comment"
+  },
+  ["nvim-jdtls"] = {
+    loaded = true,
+    path = "/home/vlad/.local/share/nvim/site/pack/packer/start/nvim-jdtls",
+    url = "https://github.com/mfussenegger/nvim-jdtls"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/home/vmarchenko/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/home/vlad/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["onedark.vim"] = {
     loaded = true,
-    path = "/home/vmarchenko/.local/share/nvim/site/pack/packer/start/onedark.vim",
+    path = "/home/vlad/.local/share/nvim/site/pack/packer/start/onedark.vim",
     url = "https://github.com/joshdick/onedark.vim"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/vmarchenko/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/home/vlad/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   vim = {
     loaded = true,
-    path = "/home/vmarchenko/.local/share/nvim/site/pack/packer/start/vim",
+    path = "/home/vlad/.local/share/nvim/site/pack/packer/start/vim",
     url = "https://github.com/dracula/vim"
   }
 }
