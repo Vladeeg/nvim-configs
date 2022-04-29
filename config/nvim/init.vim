@@ -1,6 +1,7 @@
 lua require('plugins')
 lua require('lspconf')
 lua require('nvim_comment').setup()
+lua vim.wo.signcolumn = 'yes'
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
